@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+:root {
+  /* color-based variables */
+  --primary-color: #e63946;
+  --light-bg: #fafaff;
+  --light-primary-text: #1c1c1c;
+  --light-secondary-text: #777;
+  --light-border-color: #999;
+  --light-accent: #eef0f2;
+  --dark-bg: #1c1c1c;
+  --dark-primary-text: #fafaff;
+  --dark-secondary-text: #c1c1c1;
+  --dark-accent: #daddd8;
+
+  /* scale */
+  --base-scale: 1.25;
+  /* font-based variables */
+  --base-font-family: "Quicksand", sans-serif;
+  --base-font-size: 1rem;
+  --font-extralight: 300;
+  --font-light: 400;
+  --font-normal: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* heading-based variables */
+  --h3: calc(var(--base-font-size) * var(--base-scale));
+  --h2: calc(var(--h3) * var(--base-scale));
+  --h1: calc(var(--h2) * var(--base-scale));
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: var(--base-font-family);
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: var(--font-semibold);
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+body {
+  font-weight: var(--font-normal);
+  background-color: var(--light-bg);
+  color: var(--light-primary-text);
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
