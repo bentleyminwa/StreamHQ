@@ -1,4 +1,4 @@
-import { Menu, Mic, MonitorPlay, Plus, Search, SunDim } from "lucide-react";
+import { Bell, Menu, Mic, MonitorPlay, Plus, Search } from "lucide-react";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -38,7 +38,7 @@ const Navbar = () => {
           </span>
           <span>Create</span>
         </button>
-        <SunDim />
+        <Bell />
         <img src="avatar.png" alt="superhero avatar" />
       </div>
     </nav>
