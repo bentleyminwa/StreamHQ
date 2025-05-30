@@ -1,0 +1,19 @@
+.sidebar {
+  font-weight: var(--font-light);
+}
+
+.sidebar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sidebar ul:not(:first-child) {
+  margin: 1rem 0;
+}
+
+.sidebar li {
+  gap: 1rem;
+  font-size: 0.9375rem;
+}

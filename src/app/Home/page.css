@@ -1,0 +1,5 @@
+.home {
+  display: grid;
+  grid-template-columns: minmax(50px, 200px) 1fr;
+  padding: 5rem 2rem;
+}
