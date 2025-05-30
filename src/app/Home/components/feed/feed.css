@@ -1,3 +1,16 @@
 .feed {
-  border: 1px solid blue;
+}
+
+.feed-categories {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.category {
+  padding: 0.5rem 1rem;
+  background-color: var(--light-accent);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: var(--font-semibold);
+  cursor: pointer;
 }

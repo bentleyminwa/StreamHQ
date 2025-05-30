@@ -66,3 +66,54 @@ export const sidebarData = {
     },
   ],
 };
+
+export const feedCategories = [
+  {
+    categoryId: 0,
+    label: "All",
+  },
+  {
+    categoryId: 1,
+    label: "Live",
+  },
+  {
+    categoryId: 2,
+    label: "Music",
+  },
+  {
+    categoryId: 3,
+    label: "Gaming",
+  },
+  {
+    categoryId: 4,
+    label: "News",
+  },
+  {
+    categoryId: 5,
+    label: "Sports",
+  },
+  {
+    categoryId: 6,
+    label: "Learning",
+  },
+  {
+    categoryId: 7,
+    label: "Fashion & Beauty",
+  },
+  {
+    categoryId: 8,
+    label: "Comedy",
+  },
+  {
+    categoryId: 9,
+    label: "Entertainment",
+  },
+  {
+    categoryId: 10,
+    label: "People & Blogs",
+  },
+  {
+    categoryId: 11,
+    label: "Animals",
+  },
+];
