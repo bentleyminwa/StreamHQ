@@ -69,6 +69,11 @@ h3 {
   font-size: var(--h3);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-weight: var(--font-normal);
   background-color: var(--light-bg);

@@ -121,6 +121,7 @@ export const feedCategories = [
 export const feedVideos = [
   {
     videoId: 0,
+    categoryId: 0,
     title: "How to make a website",
     channel: "Maggie",
     channelImage: "images/maggie.jpg",
@@ -130,6 +131,7 @@ export const feedVideos = [
   },
   {
     videoId: 1,
+    categoryId: 0,
     title: "How to make a website",
     channel: "Maggie",
     channelImage: "images/maggie.jpg",
@@ -139,6 +141,7 @@ export const feedVideos = [
   },
   {
     videoId: 2,
+    categoryId: 0,
     title: "How to make a website",
     channel: "Maggie",
     channelImage: "images/maggie.jpg",
@@ -148,6 +151,7 @@ export const feedVideos = [
   },
   {
     videoId: 3,
+    categoryId: 0,
     title: "How to make a website",
     channel: "Maggie",
     channelImage: "images/maggie.jpg",
@@ -157,6 +161,7 @@ export const feedVideos = [
   },
   {
     videoId: 4,
+    categoryId: 0,
     title: "How to make a website",
     channel: "Maggie",
     channelImage: "images/maggie.jpg",
@@ -166,6 +171,7 @@ export const feedVideos = [
   },
   {
     videoId: 5,
+    categoryId: 0,
     title: "How to make a website",
     channel: "Maggie",
     channelImage: "images/maggie.jpg",
