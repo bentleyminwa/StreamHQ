@@ -180,3 +180,36 @@ export const feedVideos = [
     thumbnail: "images/thumbnail.jpg",
   },
 ];
+
+export const recommendedVideos = [
+  {
+    videoId: 0,
+    categoryId: 0,
+    title: "How to make a website",
+    channel: "Maggie",
+    channelImage: "images/maggie.jpg",
+    views: "35k",
+    timestamp: "1 day ago",
+    thumbnail: "images/thumbnail.jpg",
+  },
+  {
+    videoId: 1,
+    categoryId: 0,
+    title: "How to make a website",
+    channel: "Maggie",
+    channelImage: "images/maggie.jpg",
+    views: "35k",
+    timestamp: "1 day ago",
+    thumbnail: "images/thumbnail.jpg",
+  },
+  {
+    videoId: 2,
+    categoryId: 0,
+    title: "How to make a website",
+    channel: "Maggie",
+    channelImage: "images/maggie.jpg",
+    views: "35k",
+    timestamp: "1 day ago",
+    thumbnail: "images/thumbnail.jpg",
+  },
+];

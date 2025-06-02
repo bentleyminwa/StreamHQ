@@ -1,0 +1,8 @@
+.video-display {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.video-display video {
+  width: 100%;
+}

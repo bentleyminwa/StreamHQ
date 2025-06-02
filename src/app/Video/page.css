@@ -1,0 +1,6 @@
+.video-page {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+  padding: 5rem 2rem;
+}

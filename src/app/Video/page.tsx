@@ -1,5 +1,14 @@
+import Recommended from "./components/recommended/recommended";
+import VideoDisplay from "./components/video-display/video-display";
+import "./page.css";
+
 const Videopage = () => {
-  return <div>Video</div>;
+  return (
+    <main className="video-page">
+      <VideoDisplay />
+      <Recommended />
+    </main>
+  );
 };
 
 export default Videopage;
